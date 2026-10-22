@@ -1,0 +1,11 @@
+uuid: 7de6b1e2-0029-405e-b884-a27ed920779c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.blog
+label: Blog
+description: ''
+targetEntityType: media
+cache: true

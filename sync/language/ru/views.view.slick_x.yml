@@ -1,0 +1,73 @@
+display:
+  default:
+    display_title: Основной
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Применить
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'
+      fields:
+        title:
+          separator: ', '
+  block_asnavfor_multi_value:
+    display_options:
+      fields:
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить
+        title:
+          separator: ', '
+  block_asnavfor_single:
+    display_options:
+      fields:
+        title:
+          separator: ', '
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить
+  block_asnavfor_split:
+    display_options:
+      fields:
+        title:
+          separator: ', '
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить
+  block_carousel:
+    display_options:
+      fields:
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить
+        title:
+          separator: ', '
+  block_fullscreen:
+    display_options:
+      fields:
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить
+  block_grid:
+    display_options:
+      fields:
+        title:
+          separator: ', '
+        field_image:
+          separator: ', '
+        edit_node:
+          text: изменить
+  block_main:
+    display_options:
+      fields:
+        field_images:
+          separator: ', '
+        edit_node:
+          text: изменить

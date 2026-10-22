@@ -1,0 +1,22 @@
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+// Sub theme styling.
+@import 'variables_drupal';
+
+// Bootstrap overriden variables.
+// @see https://getbootstrap.com/docs/5.1/customize/sass/#variable-defaults.
+@import 'variables_bootstrap';
+
+// Include bootstrap.
+@import '../../../../themes/contrib/bootstrap5/scss/style';
+
+@import 'node';
+@import 'header';
+@import 'footer';
+@import 'menu_desktop';
+@import 'menu_mobile';
+@import 'links';
+@import 'tabs';
+@import 'webforms';
+@import 'maintenance';

@@ -1,0 +1,23 @@
+uuid: 9c2a4307-99d6-44ff-a67a-4587a0b6a8e7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3a90f6ad-24bb-4ea1-8681-414903afe5c8'
+  module:
+    - block_content
+  theme:
+    - telliodora
+id: copyright
+theme: telliodora
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:3a90f6ad-24bb-4ea1-8681-414903afe5c8'
+settings:
+  id: 'block_content:3a90f6ad-24bb-4ea1-8681-414903afe5c8'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

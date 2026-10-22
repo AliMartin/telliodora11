@@ -1,0 +1,107 @@
+// See notes in _menu_desktop.scss
+
+// Mobile menu icon
+
+#block-responsivemenumobileicon {
+  .responsive-menu-toggle-icon {
+    width: 40px;
+    height: 40px;
+    //background-color: $white;
+    border: 1px solid $white;
+    border-radius: 20px;
+  }
+}
+
+#block-responsivemenumobileicon {
+  .responsive-menu-toggle-icon::before,
+  .responsive-menu-toggle-icon::after,
+  .responsive-menu-toggle-icon span.icon {
+    background: $white;
+    width: 20px;
+    height: 2px;
+    left: 9px;
+  }
+  .label {
+    display: none;
+  }
+  .responsive-menu-toggle-icon::before    {top: 11px;}
+  .responsive-menu-toggle-icon span.icon  {top: 18px;}
+  .responsive-menu-toggle-icon::after     {top: 25px;}
+}
+
+
+// Responsive mobile menu
+// This is the main menu that pulls in from the side
+
+.mm-menu {
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  .mm-navbar {
+    margin: 0 30px;
+    padding: 15px 0;
+  }
+
+  // Remove the default "Menu" label from the top level only and add our logo instead
+  #mm-1 a.mm-navbar__title::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: url('../logo.svg');
+    height: 70px;
+    width: 50px;
+  }
+
+  #mm-1 a.mm-navbar__title span {
+    display: none;
+  }
+
+  // Container for the vertical list of menu items
+  .mm-listview {
+    padding: 0 30px;
+  }
+
+  .mm-listitem a {
+    opacity: 0.9;
+    &.is-active,
+    &:hover,
+    &:focus {
+      color: $white;
+      opacity: 1;
+    }
+  }
+
+  // Draws the line under each menu item
+  .mm-listitem::after {
+    left: 0;
+  }
+
+  // Menu item text
+  .mm-listitem__text {
+    padding: 15px 10px;
+  }
+}
+
+
+// Language filter
+
+// EN: menu-name--main 
+// RU: menu-name--main-menu-russian
+
+body.language-en {
+  .mm-menu {
+    li.menu-name--main-menu-russian {
+      display: none;
+    }
+  }
+}
+
+body.language-ru {
+  .mm-menu {
+    li.menu-name--main {
+      display: none;
+    }
+  }
+}

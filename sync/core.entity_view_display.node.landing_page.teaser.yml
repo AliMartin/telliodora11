@@ -1,0 +1,33 @@
+uuid: bb6bc2f9-9815-4a9e-83e8-215b6d434e7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_background_image_desktop
+    - field.field.node.landing_page.field_background_image_mobile
+    - field.field.node.landing_page.field_background_image_tablet
+    - field.field.node.landing_page.field_images
+    - field.field.node.landing_page.field_paragraphs
+    - field.field.node.landing_page.field_subtitle
+    - node.type.landing_page
+  module:
+    - user
+id: node.landing_page.teaser
+targetEntityType: node
+bundle: landing_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_background_image_desktop: true
+  field_background_image_mobile: true
+  field_background_image_tablet: true
+  field_images: true
+  field_paragraphs: true
+  field_subtitle: true
+  langcode: true

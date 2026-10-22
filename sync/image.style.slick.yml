@@ -1,0 +1,20 @@
+uuid: d3b4041a-e418-41c3-af06-2560cecffcb5
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - slick_example
+_core:
+  default_config_hash: PZ2oLG6shw_ljMuIN4cN34s2U47LJYUA_81p1Sq4KW8
+name: slick
+label: Slick
+effects:
+  9c89091c-dd37-4f00-8ab4-7cf304fbff91:
+    uuid: 9c89091c-dd37-4f00-8ab4-7cf304fbff91
+    id: image_scale
+    weight: 2
+    data:
+      width: 750
+      height: 750
+      upscale: false

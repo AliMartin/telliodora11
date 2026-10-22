@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+fontawesome:
+  version: 6.7.2
+  css:
+    theme:
+      /libraries/fontawesome/css/all.min.css: { minified: true }
+      /libraries/fontawesome/css/v4-shims.min.css: { minified: true }

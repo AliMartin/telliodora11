@@ -1,0 +1,74 @@
+// Bootstrap variables (overrides).
+
+// override default bootstrap colors for accessibility
+//$white: #fff !default;
+//$black: #000 !default;
+//$gray-700: #495057 !default;
+//$cyan: #006170 !default;
+//$pink: #e21181 !default;
+//$green: #008a00 !default;
+
+//$breadcrumb-divider-color: $gray-700 !default;
+//$breadcrumb-active-color: $gray-700 !default;
+
+//$navbar-light-color: rgba($black, .6) !default;
+//$navbar-dark-color: rgba($white, .6) !default;
+
+$form-text-margin-top: 0 !default;
+$legend-font-size: 1rem !default;
+$table-cell-padding-x: .75rem;
+
+
+// Override default bootstrap colors for accessibility
+$white: #ffffff !default;
+$black: #000000 !default;
+$gray: #3b3b3a !default;
+$green: #1BB8A9 !default;
+$purple: #B82EAB !default;
+$red: #B84109 !default;
+$yellow: #B5B812 !default;
+$cyan: #15AFCF !default;
+//$blue: #1478C4 !default;
+//$blue: #024ebe !default;
+
+// Responsive mobile menu variables
+.mm-menu_theme-black {
+  --mm-color-border: rgba (255,255,255,0.5);
+  --mm-color-button:rgba( 255,255,255, 0.5 );
+  --mm-color-text:rgba( 255,255,255, 0.5 );
+  --mm-color-text-dimmed:rgba( 255,255,255, 0.5 );
+  --mm-color-background:#000;
+  --mm-color-background-highlight:rgba( 255,255,255, 0.2 );
+  --mm-color-background-emphasis:rgba( 255,255,255, 0.15 );
+  --mm-shadow:none
+ }
+
+// Fonts
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$font-weight-normal: 300;
+$font-weight-bold: 500;
+
+$headings-font-family: 'Cinzel', serif;
+$headings-font-weight: 400;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$body-color: $white;
+
+// Hyperlinks
+$link-color: $green;
+$link-decoration: underline;
+$link-hover-color: $purple;
+$link-hover-decoration: underline;
+
+
+// Image border radius
+$border-radius-img: 10px;

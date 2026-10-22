@@ -1,0 +1,35 @@
+uuid: 280ba3d0-b6bd-4364-a8cc-059ab323d162
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - language
+    - system
+  theme:
+    - telliodora
+_core:
+  default_config_hash: 2WFbJDunch0zIncdvf-xDWinKQIHHBm6YshytSBDfJE
+id: telliodora_main_navigation
+theme: telliodora
+region: nav_main
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: true
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en

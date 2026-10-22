@@ -1,0 +1,25 @@
+uuid: 757331f5-1213-4d4f-8f74-cc2fd0676fa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+    - node.type.page
+  module:
+    - node
+id: default_pattern
+label: 'Default pattern'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria:
+  b69013e2-e181-4656-86d6-a0e73b1fff91:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      landing_page: landing_page
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

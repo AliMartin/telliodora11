@@ -1,0 +1,29 @@
+uuid: 93f44a22-5aee-4cee-89b5-c7e6648b4637
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_logo
+    - media.type.image
+    - paragraphs.paragraphs_type.logo_strip
+id: paragraph.logo_strip.field_logo
+field_name: field_logo
+entity_type: paragraph
+bundle: logo_strip
+label: 'Previous clients and venues'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

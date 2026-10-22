@@ -1,0 +1,306 @@
+// Page backgrounds
+
+body {
+  background-color: $black;
+  background-image: url('../images/wallpaper-03.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  z-index: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@media screen and (max-width: 499px) {
+  body {
+    background-image: url('../images/wallpaper-03-mobile.jpg');
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: inherit;
+    -webkit-background-size: inherit;
+    -moz-background-size: inherit;
+    -o-background-size: inherit;
+  }
+}
+
+.mm-page,
+.mm-wrapper_background body {
+  background-color: unset;
+}
+
+main > .container {
+  max-width: 800px;
+  margin: 500px auto 0 auto;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: $border-radius-img $border-radius-img 0 0;
+  text-align: center;
+}
+
+.path-blog main > .container,
+.page-node-type-blog main > .container {
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (min-width: 500px) and (max-width: 859px) {
+  main > .container {
+    max-width: inherit;
+    width: inherit;
+    margin: 400px 30px 0 30px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  main > .container {
+    max-width: inherit;
+    width: inherit;
+    margin: 300px 15px 0 15px;
+    padding: 15px
+  }
+}
+
+@media screen and (max-height: 400px) {
+  main > .container {
+    margin: 230px 15px 0 15px;
+  }
+}
+
+h1.text-center.page-title {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center !important;
+}
+
+.path-frontpage .paragraph--type--text h2 {
+  font-size: x-large !important;
+  text-align: center;
+}
+
+.node__submitted {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.page-node-type-blog main > .container .field--name-field-media-image {
+  margin-bottom: 1rem;
+  img {
+    width: 100%;
+  }
+}
+
+.field--name-field-subtitle {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  margin-bottom: 1rem;
+  font-size: xx-large;
+  line-height: 1;
+  text-align: center;
+}
+
+b, strong {
+  font-weight: $font-weight-bold;
+}
+
+
+// General paragraph formatting
+
+.field--name-field-paragraphs {
+  > .field__item {
+    margin-bottom: 3rem;
+  }
+
+  .field__label,
+  h2 {
+    text-align: center;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight; 
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    line-height: 1;
+  }
+}
+
+
+// Logo strip
+
+.paragraph--type--logo-strip .field__items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+// Links
+.paragraph--type--links {
+
+  .field__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+    .field__item {
+      display: flex;
+      justify-content: center;
+
+      a {
+        color: $white;
+        background-color: $green;
+        text-decoration: none;
+        padding: 0.25rem 1rem;
+        border-radius: 2rem;
+
+        &:hover,
+        &:focus {
+          background-color: $purple;
+        }
+      }
+    }
+  }
+}
+
+
+// Slick gallery
+
+.paragraph--type--gallery {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+// Blog
+
+.path-blog {
+  .media-library-item__name {
+    display: none;
+  }
+}
+
+.view-blog-page {
+  .views-row {
+    margin-bottom: 3rem;
+
+    .field-content {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+
+      .blog-image {
+        flex: 0 0 250px;
+      }
+
+      .blog-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        flex: 1;
+
+        h2 {
+          font-size: x-large;
+        }
+
+        .created {
+          font-family: $headings-font-family;
+          font-weight: $headings-font-weight;
+        }
+
+        .body {
+          margin-bottom: 0.75rem;
+        }
+
+        .view {
+          a {
+            color: $white;
+            background-color: $gray;
+            text-decoration: none;
+            padding: 0.25rem 1rem;
+            border-radius: 2rem;
+
+            &:hover,
+            &:focus {
+              background-color: $red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .view-blog-page {
+    .views-row {
+  
+      .field-content {
+        flex-direction: column;
+  
+        .blog-image {
+          flex: inherit;
+
+          img {
+            width: 100%;
+          }
+        }  
+      }
+    }
+  }
+}
+
+// Home page blog preview
+
+.path-frontpage .view-blog-page {
+  .views-row {
+    .field-content {
+      .blog-image {
+        flex: 0 0 200px;
+      }
+    }
+  }
+}
+
+
+// Recaptcha
+
+.captcha {
+  display: flex;
+  justify-content: center;
+}
+
+
+// Fitvids doesn't work with oEmbed YouTube videos:
+// https://www.drupal.org/project/fitvids/issues/3158833
+
+.field--name-field-media-oembed-video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.media-oembed-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Videos page
+.paragraph--type--video-player .field__label {
+  display: none;
+}

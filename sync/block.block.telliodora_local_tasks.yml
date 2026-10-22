@@ -1,0 +1,22 @@
+uuid: d7eb71b5-9946-4448-9851-4948bca3f477
+langcode: en
+status: true
+dependencies:
+  theme:
+    - telliodora
+_core:
+  default_config_hash: _ovwCSWfLi6BW_BLK2MYaNQxS6w70wDl6njSZkUGFqU
+id: telliodora_local_tasks
+theme: telliodora
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

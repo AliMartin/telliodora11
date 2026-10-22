@@ -1,0 +1,33 @@
+uuid: b8225819-7b83-4d31-818a-9d24adada734
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-menu-russian
+  module:
+    - language
+    - system
+  theme:
+    - telliodora
+id: mainmenurussian
+theme: telliodora
+region: nav_main
+weight: -6
+provider: null
+plugin: 'system_menu_block:main-menu-russian'
+settings:
+  id: 'system_menu_block:main-menu-russian'
+  label: 'Main menu Russian'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility:
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      ru: ru

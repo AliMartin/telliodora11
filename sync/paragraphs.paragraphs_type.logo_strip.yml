@@ -1,0 +1,10 @@
+uuid: 2b806911-7d94-46ea-ba16-4325e208e284
+langcode: en
+status: true
+dependencies: {  }
+id: logo_strip
+label: 'Logo strip'
+icon_uuid: null
+icon_default: null
+description: 'A collection of corporate logos.'
+behavior_plugins: {  }

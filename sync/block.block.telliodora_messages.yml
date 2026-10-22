@@ -1,0 +1,22 @@
+uuid: c9f1d313-434b-451e-aa00-732e4b043134
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - telliodora
+_core:
+  default_config_hash: 3KUyqVh7Wc87qW7ILc9go8EjIjgTC-jX64NLIB6ymTM
+id: telliodora_messages
+theme: telliodora
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: b1901599-2633-4ab1-b9a0-f5b9a6752870
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - telliodora
+id: languageswitcher
+theme: telliodora
+region: header
+weight: 8
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

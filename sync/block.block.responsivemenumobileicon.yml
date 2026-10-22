@@ -1,0 +1,20 @@
+uuid: 14224146-8bd7-47a7-9a01-7d2e2009c632
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - telliodora
+id: responsivemenumobileicon
+theme: telliodora
+region: language_and_mobile_menu
+weight: -5
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

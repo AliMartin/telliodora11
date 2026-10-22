@@ -1,0 +1,10 @@
+uuid: 3ac60e22-852c-40d6-a595-6c6aabb88441
+langcode: en
+status: true
+dependencies: {  }
+id: video_player
+label: Video
+icon_uuid: null
+icon_default: null
+description: 'Add a single video player.'
+behavior_plugins: {  }

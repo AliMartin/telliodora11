@@ -1,0 +1,20 @@
+uuid: 6ee4be16-0f14-43c2-a057-27b874c2d5de
+langcode: en
+status: true
+dependencies:
+  theme:
+    - telliodora
+_core:
+  default_config_hash: xwwIAIASYVj28LEwVWWWEK6Wzkwjxi3nx8iy-oT-M9M
+id: telliodora_local_actions
+theme: telliodora
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+title: Контакт
+elements: |
+  name:
+    '#title': 'Ваше имя'
+  email:
+    '#title': 'ВАШ E-MAIL'
+  mobile:
+    '#title': 'ВАШ НОМЕР ТЕЛЕФОНА '
+  message:
+    '#title': 'Напишите нам'
+  actions:
+    '#title': 'Отправить сообщение'
+    '#submit__label': 'Отправить сообщение'
+settings:
+  confirmation_message: 'Ваше сообщение отправлено.'
+handlers:
+  email_confirmation:
+    settings:
+      subject: '* telliodora.com website enquiry *'
+  email_notification:
+    settings:
+      from_name: '* telliodora.com *'
+      subject: '* telliodora.com website enquiry *'

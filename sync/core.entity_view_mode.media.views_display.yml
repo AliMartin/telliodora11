@@ -1,0 +1,11 @@
+uuid: 8d4a7e46-2a5a-477d-a2cd-78c93df02667
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.views_display
+label: 'Views display'
+description: ''
+targetEntityType: media
+cache: true

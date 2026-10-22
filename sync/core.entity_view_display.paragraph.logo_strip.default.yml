@@ -1,0 +1,22 @@
+uuid: bbf7af06-8d3d-4997-9591-339212af7e91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_strip.field_logo
+    - paragraphs.paragraphs_type.logo_strip
+id: paragraph.logo_strip.default
+targetEntityType: paragraph
+bundle: logo_strip
+mode: default
+content:
+  field_logo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: logo
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

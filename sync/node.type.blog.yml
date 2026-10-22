@@ -1,0 +1,17 @@
+uuid: e3c1a9f5-7e2b-48cf-bbef-dd4acd46389b
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Blog
+type: blog
+description: 'Add a <em>blog</em> entry to the site.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

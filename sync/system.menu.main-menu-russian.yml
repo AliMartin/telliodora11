@@ -1,0 +1,8 @@
+uuid: d6656e53-8e8c-420c-83df-8a7714cf731f
+langcode: ru
+status: true
+dependencies: {  }
+id: main-menu-russian
+label: 'Main menu Russian'
+description: 'Main menu Russian'
+locked: false

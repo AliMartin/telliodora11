@@ -1,0 +1,27 @@
+uuid: c0c12a4f-f333-4fd6-abf9-3e889ee64243
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+label: 'EN flag'
+name: en_flag
+group: null
+description: 'Flag the page as EN'
+requireAllConditions: false
+disabled: false
+conditions:
+  language:
+    id: language
+    negate: false
+    uuid: b85a839e-6210-440e-bc7a-29a9e10247eb
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      en: en
+reactions:
+  body_class:
+    id: body_class
+    body_class: language-en
+    saved: false
+weight: 0

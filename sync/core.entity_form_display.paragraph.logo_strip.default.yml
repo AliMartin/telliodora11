@@ -1,0 +1,24 @@
+uuid: 6f4f387f-0f68-4bd8-b836-1248644f7701
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_strip.field_logo
+    - paragraphs.paragraphs_type.logo_strip
+  module:
+    - media_library
+id: paragraph.logo_strip.default
+targetEntityType: paragraph
+bundle: logo_strip
+mode: default
+content:
+  field_logo:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

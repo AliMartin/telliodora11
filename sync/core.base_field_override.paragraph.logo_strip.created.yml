@@ -1,0 +1,18 @@
+uuid: f26c9826-823c-4f69-bc41-2723c7a5e5a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.logo_strip
+id: paragraph.logo_strip.created
+field_name: created
+entity_type: paragraph
+bundle: logo_strip
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

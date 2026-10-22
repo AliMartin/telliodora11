@@ -1,0 +1,143 @@
+// Scaffolding
+
+.region-header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 15px;
+
+  > div {
+    display: flex;
+    height: 40px;
+    flex-basis: 33.3333%;
+  }
+
+  #block-sitebranding {
+    justify-content: flex-start;
+  }
+  #block-telliodora-branding {
+    justify-content: center;
+  }
+  #block-telliodora-title {
+    justify-content: center;
+  }
+  #block-languageandmobilemenu,
+  #block-languageswitcher {
+    gap: 15px;
+    justify-content: flex-end;
+  }
+}
+
+#block-sitebranding img {
+  height: 32px;
+  width: auto;
+  margin-top: 4px;
+}
+
+@media only screen and (max-width : 767px) {
+  .region-header {
+    flex-wrap: wrap;
+
+    > div {
+      flex-basis: inherit;
+    }
+
+    #block-sitebranding {
+      flex-grow: 1;
+    }
+    #block-telliodora-branding {
+      flex-grow: 2;
+    }
+    #block-languageandmobilemenu {
+      flex-grow: 1;
+    }  
+  }
+}
+
+// Language selector
+
+#block-languageswitcher {
+  > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      opacity: 0.2;
+
+      a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 0;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    li.is-active {
+      opacity: 1;
+    }
+
+    li:nth-child(1) a::before {
+      content:url('../images/country-icon-uk-40px.png');
+      display: flex;
+    }
+
+    li:nth-child(2) a::before {
+      content:url('../images/country-icon-ru-40px.png');
+      display: flex;
+    }
+  }
+
+}
+
+
+header {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1rem 0 0 0;
+
+  > .navbar {
+    padding: 0;
+  }
+
+  div.site-title {
+    margin: 0 auto;
+
+  }
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $headings-font-family;
+  padding: 0;
+  margin: 0;
+
+  a.site-title {
+    font-size: 24px;
+    line-height: 30px;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      color: $white;
+    }
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .navbar-brand a.site-title {
+    display: none;
+  }
+}
+

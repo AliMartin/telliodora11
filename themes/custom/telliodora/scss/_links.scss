@@ -1,0 +1,18 @@
+a {
+  color: $white;
+  font-weight: $font-weight-bold;
+}
+
+.btn-primary,
+.btn-primary:visited {
+  background-color: $green;
+  border-color: $green;
+  outline: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active, {
+  background-color: $purple;
+  border-color: $purple;
+  outline: none;
+}

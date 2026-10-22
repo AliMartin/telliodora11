@@ -1,0 +1,72 @@
+// There are two separate main menus, one for English and one for Russian.
+// The desktop menu uses block language settings to toggle between the two versions.
+// The mobile responsive menu joins the two menus together in its configuration and then CSS is used to filter out the languages.
+
+// Desktop menu
+#block-telliodora-main-navigation,
+#block-mainmenurussian {
+  padding: 0 0 1rem 0;
+
+  ul.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    gap: 30px;
+    font-family: $font-family-sans-serif;
+    letter-spacing: 1px;
+    background-color: inherit;
+    text-transform: uppercase;
+  
+    li {
+      font-size: 14px;
+      line-height: 14px;
+      a,
+      .nav-link {
+        color: $white;
+        font-weight: $font-weight-bold;
+        padding: 0;
+        opacity: 0.3;
+
+        &.is-active {
+          color: $white;
+          background-color: inherit;
+          opacity: 1;
+        }
+        &:hover,
+        &:focus {
+          color: $white;
+          background-color: inherit;
+          opacity: 1;
+        }
+      }
+    }
+  }
+  ul.dropdown-menu.show {
+    display: flex;
+    flex-direction: column;
+    a {
+      padding: .25rem 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #block-telliodora-main-navigation,
+  #block-mainmenurussian {
+    ul.navbar-nav {
+      font-size: 0.9rem;
+      gap: 25px;
+    }
+    .dropdown-toggle::after {
+      position: relative;
+      top: 7px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #block-telliodora-main-navigation,
+  #block-mainmenurussian {
+    display: none;
+  }
+}

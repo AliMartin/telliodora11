@@ -1,0 +1,23 @@
+uuid: ff91c97f-3213-4f0b-9341-bfde4999f544
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:386265b4-e6f2-480b-8894-d795912173d3'
+  module:
+    - block_content
+  theme:
+    - telliodora
+id: telliodora_title
+theme: telliodora
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:386265b4-e6f2-480b-8894-d795912173d3'
+settings:
+  id: 'block_content:386265b4-e6f2-480b-8894-d795912173d3'
+  label: Telliodora
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

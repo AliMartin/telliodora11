@@ -1,0 +1,20 @@
+uuid: 17b1d123-f246-4af9-9c90-e47242840f65
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.webform
+id: node.webform.uid
+field_name: uid
+entity_type: node
+bundle: webform
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

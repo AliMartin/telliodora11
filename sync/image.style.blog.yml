@@ -1,0 +1,15 @@
+uuid: 4ed6aa5e-7090-4a42-83dc-eaf2e6855d82
+langcode: en
+status: true
+dependencies: {  }
+name: blog
+label: Blog
+effects:
+  eb442edd-6d2a-4619-aa72-4c1cf5f91707:
+    uuid: eb442edd-6d2a-4619-aa72-4c1cf5f91707
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300
+      anchor: center-center

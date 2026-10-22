@@ -1,0 +1,18 @@
+uuid: 9923f4b1-f9f9-4ad9-93a1-e6e3bac4a5ac
+langcode: en
+status: true
+dependencies:
+  theme:
+    - telliodora
+id: telliodora_pagetitle
+theme: telliodora
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

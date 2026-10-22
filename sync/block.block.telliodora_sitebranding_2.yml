@@ -1,0 +1,23 @@
+uuid: 4549e1e2-b42f-4232-ab10-2dcae380fa5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - telliodora
+id: telliodora_sitebranding_2
+theme: telliodora
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

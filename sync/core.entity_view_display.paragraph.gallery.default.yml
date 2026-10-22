@@ -1,0 +1,22 @@
+uuid: 2e534ab0-a144-4ea6-9444-90e3d945427b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery.field_slick_gallery
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - block_field
+id: paragraph.gallery.default
+targetEntityType: paragraph
+bundle: gallery
+mode: default
+content:
+  field_slick_gallery:
+    type: block_field
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

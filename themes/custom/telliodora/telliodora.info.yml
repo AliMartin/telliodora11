@@ -1,0 +1,20 @@
+name: telliodora
+type: theme
+description: 'telliodora subtheme based on Bootstrap 5 theme.'
+core_version_requirement: '^10.3 || ^11'
+'base theme': bootstrap5
+libraries:
+  - telliodora/global-styling
+  - telliodora/fontawesome
+stylesheets-remove:
+  - '@bootstrap5/css/style.css'
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

@@ -1,0 +1,49 @@
+--- a/src/Plugin/Field/FieldFormatter/BgImageFormatter.php
++++ b/src/Plugin/Field/FieldFormatter/BgImageFormatter.php
+@@ -16,6 +16,7 @@
+ use Drupal\Core\Render\RendererInterface;
+ use Drupal\Core\Session\AccountInterface;
+ use Drupal\Core\Url;
++use Drupal\image\ImageDerivativeUtilities;
+ use Drupal\image\Plugin\Field\FieldFormatter\ImageFormatter;
+ use Symfony\Component\DependencyInjection\ContainerInterface;
+ use Symfony\Component\HttpFoundation\Request;
+@@ -73,6 +74,8 @@
+    *   The renderer service.
+    * @param \Symfony\Component\HttpFoundation\Request $request
+    *   The current request.
++   * @param \Drupal\image\ImageDerivativeUtilities $image_derivative_utilities
++   *   The image derivative utilities service.
+    */
+   public function __construct(
+     $plugin_id,
+@@ -86,7 +89,8 @@
+     EntityStorageInterface $image_style_storage,
+     FileUrlGeneratorInterface $file_url_generator,
+     RendererInterface $renderer,
+-    Request $request
++    Request $request,
++    ImageDerivativeUtilities $image_derivative_utilities
+   ) {
+     parent::__construct(
+       $plugin_id,
+@@ -98,7 +102,8 @@
+       $third_party_settings,
+       $current_user,
+       $image_style_storage,
+-      $file_url_generator
++      $file_url_generator,
++      $image_derivative_utilities
+     );
+     $this->renderer = $renderer;
+     $this->request = $request;
+@@ -120,7 +125,8 @@
+         $container->get('entity_type.manager')->getStorage('image_style'),
+         $container->get('file_url_generator'),
+         $container->get('renderer'),
+-        $container->get('request_stack')->getCurrentRequest()
++        $container->get('request_stack')->getCurrentRequest(),
++        $container->get(ImageDerivativeUtilities::class)
+     );
+   }
+ 

@@ -1,0 +1,15 @@
+uuid: 44462c3a-6060-4a69-b567-8ac2a62f782a
+langcode: en
+status: true
+dependencies: {  }
+name: logo
+label: Logo
+effects:
+  e6a59562-35e4-4552-956e-ed5467174ab5:
+    uuid: e6a59562-35e4-4552-956e-ed5467174ab5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 112
+      height: 63
+      anchor: center-center

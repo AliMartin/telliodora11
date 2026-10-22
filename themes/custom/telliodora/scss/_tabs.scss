@@ -1,0 +1,18 @@
+ul.nav-tabs {
+  justify-content: center;
+
+  li {
+    a {
+      font-weight: $font-weight-normal;
+      text-decoration: none;
+      color: $white;
+      &:hover,
+      &:focus {
+        color: $white;
+      }
+    }
+  }
+  .nav-link.active {
+    background-color: inherit;
+  }
+}

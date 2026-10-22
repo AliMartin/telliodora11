@@ -1,0 +1,8 @@
+uuid: 4318273c-9bad-44ff-b0e3-e3e3dd5e0a6d
+langcode: ru
+status: true
+dependencies: {  }
+id: kontakty
+label: Контакты
+description: ''
+locked: false

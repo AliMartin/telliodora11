@@ -1,0 +1,22 @@
+uuid: 71f222f8-6ac1-4384-bd18-d6ab9238f711
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - telliodora
+_core:
+  default_config_hash: '-LZOwhvXMzsnBlzpxoNRmpl-wj3z9Y9Nuq2lJyZ86Fw'
+id: telliodora_content
+theme: telliodora
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,180 @@
+uuid: 13046020-1baa-465e-ba4d-5ed613f76ada
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - filter.format.basic_html
+    - filter.format.code
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.article
+    - node.type.blog
+    - node.type.landing_page
+    - node.type.page
+    - node.type.webform
+    - taxonomy.vocabulary.tags
+  module:
+    - block_content
+    - comment
+    - contextual
+    - file
+    - filter
+    - help
+    - media
+    - node
+    - paragraphs
+    - path
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access block library'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access help pages'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer content types'
+  - 'administer media'
+  - 'administer media types'
+  - 'administer nodes'
+  - 'administer paragraphs settings'
+  - 'administer paragraphs types'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'bypass node access'
+  - 'create article content'
+  - 'create audio media'
+  - 'create basic block content'
+  - 'create blog content'
+  - 'create document media'
+  - 'create image media'
+  - 'create landing_page content'
+  - 'create media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'create video media'
+  - 'create webform content'
+  - 'delete all revisions'
+  - 'delete all taxonomy revisions'
+  - 'delete any article content'
+  - 'delete any audio media'
+  - 'delete any audio media revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any blog content'
+  - 'delete any document media'
+  - 'delete any document media revisions'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any landing_page content'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any remote_video media'
+  - 'delete any remote_video media revisions'
+  - 'delete any video media'
+  - 'delete any video media revisions'
+  - 'delete any webform content'
+  - 'delete article revisions'
+  - 'delete blog revisions'
+  - 'delete landing_page revisions'
+  - 'delete media'
+  - 'delete own article content'
+  - 'delete own audio media'
+  - 'delete own blog content'
+  - 'delete own document media'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own landing_page content'
+  - 'delete own page content'
+  - 'delete own remote_video media'
+  - 'delete own video media'
+  - 'delete own webform content'
+  - 'delete page revisions'
+  - 'delete term revisions in tags'
+  - 'delete terms in tags'
+  - 'delete webform revisions'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any basic block content'
+  - 'edit any blog content'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any landing_page content'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit any webform content'
+  - 'edit behavior plugin settings'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own blog content'
+  - 'edit own comments'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own landing_page content'
+  - 'edit own page content'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'edit own webform content'
+  - 'edit terms in tags'
+  - 'rebuild node access permissions'
+  - 'revert all revisions'
+  - 'revert all taxonomy revisions'
+  - 'revert any audio media revisions'
+  - 'revert any basic block content revisions'
+  - 'revert any document media revisions'
+  - 'revert any image media revisions'
+  - 'revert any remote_video media revisions'
+  - 'revert any video media revisions'
+  - 'revert article revisions'
+  - 'revert blog revisions'
+  - 'revert landing_page revisions'
+  - 'revert page revisions'
+  - 'revert term revisions in tags'
+  - 'revert webform revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format basic_html'
+  - 'use text format code'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view all taxonomy revisions'
+  - 'view any audio media revisions'
+  - 'view any basic block content history'
+  - 'view any document media revisions'
+  - 'view any image media revisions'
+  - 'view any remote_video media revisions'
+  - 'view any video media revisions'
+  - 'view article revisions'
+  - 'view blog revisions'
+  - 'view landing_page revisions'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view term revisions in tags'
+  - 'view the administration theme'
+  - 'view unpublished paragraphs'
+  - 'view vocabulary labels'
+  - 'view webform revisions'

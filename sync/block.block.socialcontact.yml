@@ -1,0 +1,23 @@
+uuid: 4d193b18-8f2a-4ea0-8e3e-53b52dbeb0c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bbb2e014-8120-442c-bfe7-c176df817347'
+  module:
+    - block_content
+  theme:
+    - telliodora
+id: socialcontact
+theme: telliodora
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:bbb2e014-8120-442c-bfe7-c176df817347'
+settings:
+  id: 'block_content:bbb2e014-8120-442c-bfe7-c176df817347'
+  label: 'Social contact'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

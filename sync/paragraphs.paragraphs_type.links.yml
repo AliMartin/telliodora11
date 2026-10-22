@@ -1,0 +1,10 @@
+uuid: e30bedb5-c64e-41e5-a27a-e3f0a72f616f
+langcode: en
+status: true
+dependencies: {  }
+id: links
+label: Links
+icon_uuid: null
+icon_default: null
+description: 'Add links to other websites.'
+behavior_plugins: {  }

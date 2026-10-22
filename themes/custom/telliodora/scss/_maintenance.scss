@@ -1,0 +1,19 @@
+.maintenance-page {
+  header {
+    background-color: inherit;
+    > a > img {
+      margin-bottom: 1rem;
+    }
+    .name-and-slogan {
+      a {
+        text-decoration: none;
+      }
+      .site-slogan {
+        display: none;
+      }
+    }
+  }
+  main {
+    text-align: center;
+  }
+}

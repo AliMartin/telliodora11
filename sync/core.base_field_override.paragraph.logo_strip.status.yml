@@ -1,0 +1,22 @@
+uuid: f6f522cb-9c5c-405d-9666-cd73151500d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.logo_strip
+id: paragraph.logo_strip.status
+field_name: status
+entity_type: paragraph
+bundle: logo_strip
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

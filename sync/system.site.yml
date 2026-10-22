@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 2e3e14c1-b9e3-47a8-9728-f8164ed37f04
+name: Telliodora
+mail: noreply@telliodora.com
+slogan: ''
+page:
+  403: /node/26
+  404: /node/26
+  front: /node/26
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

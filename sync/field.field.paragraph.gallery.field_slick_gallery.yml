@@ -1,0 +1,28 @@
+uuid: a5ae2f6d-96b3-44e1-83af-35b66c10845d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slick_gallery
+    - paragraphs.paragraphs_type.gallery
+  module:
+    - block_field
+id: paragraph.gallery.field_slick_gallery
+field_name: field_slick_gallery
+entity_type: paragraph
+bundle: gallery
+label: 'Slick gallery'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'views_block:slick_x-block_asnavfor_single'
+    settings: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids:
+      'views_block:slick_x-block_asnavfor_single': 'views_block:slick_x-block_asnavfor_single'
+field_type: block_field

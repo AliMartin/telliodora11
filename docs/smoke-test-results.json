@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/ru",
+      "status": 200
+    },
+    {
+      "path": "/music",
+      "status": 200
+    },
+    {
+      "path": "/videos",
+      "status": 200
+    },
+    {
+      "path": "/biography",
+      "status": 200
+    },
+    {
+      "path": "/contact",
+      "status": 200
+    },
+    {
+      "path": "/ru/biografiya",
+      "status": 200
+    },
+    {
+      "path": "/ru/muzyka",
+      "status": 200
+    },
+    {
+      "path": "/ru/video",
+      "status": 200
+    },
+    {
+      "path": "/ru/telliodora",
+      "status": 200
+    },
+    {
+      "path": "/user/login",
+      "status": 200
+    }
+  ],
+  "local_assets_checked": 26,
+  "external_scripts_or_styles": [
+    "https://www.googletagmanager.com/gtag/js?id=G-E08LEV8K1B"
+  ],
+  "errors": []
+}

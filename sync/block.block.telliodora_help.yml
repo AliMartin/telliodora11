@@ -1,0 +1,22 @@
+uuid: 718e3aa4-7664-463d-bca8-fda37a250cf5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - telliodora
+_core:
+  default_config_hash: fa0KsPsSD7pVWhsQ_VyJZ0vjPPMNWFDn_6BU-wmxbOc
+id: telliodora_help
+theme: telliodora
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

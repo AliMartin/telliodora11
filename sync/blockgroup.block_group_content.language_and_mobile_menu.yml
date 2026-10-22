@@ -1,0 +1,6 @@
+uuid: bb6d1e02-abd5-4196-9da5-a05df06dd459
+langcode: en
+status: true
+dependencies: {  }
+id: language_and_mobile_menu
+label: 'Language and mobile menu'

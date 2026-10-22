@@ -1,0 +1,262 @@
+{
+    "name": "drupal/legacy-project",
+    "description": "Telliodora Drupal 11 website (root-level Drupal layout)",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/drupal",
+    "support": {
+        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
+        "chat": "https://www.drupal.org/node/314178"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/slick",
+                "version": "1.8.1",
+                "type": "drupal-library",
+                "license": "MIT",
+                "dist": {
+                    "url": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.8.1.tgz",
+                    "type": "tar",
+                    "shasum": "a4bfb29014887bb66ce528b90bd0cda262cc8f8d"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/mmenu",
+                "version": "8.5.20",
+                "type": "drupal-library",
+                "license": "CC-BY-NC-4.0",
+                "dist": {
+                    "url": "https://registry.npmjs.org/mmenu-js/-/mmenu-js-8.5.20.tgz",
+                    "type": "tar",
+                    "shasum": "1858efb5d144a2682a1bf11d66d5ea721cb22bec"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/superfish",
+                "version": "1.7.10",
+                "type": "drupal-library",
+                "license": "MIT",
+                "dist": {
+                    "url": "https://registry.npmjs.org/superfish/-/superfish-1.7.10.tgz",
+                    "type": "tar",
+                    "shasum": "94400c5683b0cc87215c6247f26c27890990bc9e"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/blazy",
+                "version": "1.8.2",
+                "type": "drupal-library",
+                "license": "MIT",
+                "dist": {
+                    "url": "https://registry.npmjs.org/blazy/-/blazy-1.8.2.tgz",
+                    "type": "tar",
+                    "shasum": "50dfd638baaf9003efd6eb3a836aca54184ab6da"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/fontawesome",
+                "version": "6.7.2",
+                "type": "drupal-library",
+                "license": "(CC-BY-4.0 AND OFL-1.1 AND MIT)",
+                "dist": {
+                    "url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-6.7.2.tgz",
+                    "type": "tar",
+                    "shasum": "8249de9b7e22fcb3ceb5e66090c30a1d5492b81a"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/fitvids",
+                "version": "1.1.0",
+                "type": "drupal-library",
+                "license": "WTFPL",
+                "dist": {
+                    "url": "https://api.github.com/repos/davatron5000/FitVids.js/zipball/d052bf05d6579f198a7f3b05bfa6764f6873c99b",
+                    "type": "zip",
+                    "reference": "d052bf05d6579f198a7f3b05bfa6764f6873c99b"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/popperjs",
+                "version": "2.11.6",
+                "type": "drupal-library",
+                "license": "MIT",
+                "dist": {
+                    "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz",
+                    "type": "tar",
+                    "shasum": "cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "telliodora-library/tippyjs",
+                "version": "6.3.7",
+                "type": "drupal-library",
+                "license": "MIT",
+                "dist": {
+                    "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz",
+                    "type": "tar",
+                    "shasum": "8ccfb651d642010ed9a32ff29b0e9e19c5b8c61c"
+                }
+            }
+        }
+    ],
+    "require": {
+        "composer/installers": "^2.3",
+        "cweagans/composer-patches": "^2.0",
+        "drupal/admin_toolbar": "^3.3",
+        "drupal/back_to_top": "^3.0",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/bg_image_formatter": "^1.16",
+        "drupal/blazy": "^3.0",
+        "drupal/block_class": "^2.0",
+        "drupal/block_field": "^1.0@RC",
+        "drupal/blockgroup": "^2.0",
+        "drupal/bootstrap5": "^4.0@alpha",
+        "drupal/captcha": "^2.0",
+        "drupal/context": "^5.0@RC",
+        "drupal/core-composer-scaffold": "^11.4",
+        "drupal/core-project-message": "^11.4",
+        "drupal/core-recommended": "^11.4",
+        "drupal/core-vendor-hardening": "^11.4",
+        "drupal/entity": "^1.4",
+        "drupal/entity_embed": "^1.3",
+        "drupal/fitvids": "^2.0",
+        "drupal/google_analytics": "^4.0",
+        "drupal/honeypot": "^2.1 | ^2.2",
+        "drupal/httpswww": "^2.1",
+        "drupal/jquery_ui": "^1.6",
+        "drupal/jquery_ui_effects": "^2.0",
+        "drupal/menu_link_attributes": "^1.3",
+        "drupal/metatag": "^2.0",
+        "drupal/paragraphs": "^1.15",
+        "drupal/pathauto": "^1.11",
+        "drupal/recaptcha": "^3.1",
+        "drupal/redirect": "^1.8",
+        "drupal/responsive_menu": "^4.4",
+        "drupal/slick": "^2.11 | ^3.0",
+        "drupal/slick_extras": "^1.0@RC | ^2.0",
+        "drupal/slick_views": "^2.6 | ^3.0",
+        "drupal/tb_megamenu": "^3.0@alpha",
+        "drupal/upgrade_status": "^4.0",
+        "drupal/webform": "^6.1",
+        "drush/drush": "^13",
+        "php": "^8.3",
+        "telliodora-library/blazy": "~1.8.2",
+        "telliodora-library/fitvids": "~1.1.0",
+        "telliodora-library/fontawesome": "~6.7.2",
+        "telliodora-library/mmenu": "~8.5.20",
+        "telliodora-library/popperjs": "~2.11.6",
+        "telliodora-library/slick": "~1.8.1",
+        "telliodora-library/superfish": "~1.7.10",
+        "telliodora-library/tippyjs": "~6.3.7"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": true,
+            "drupal/core-vendor-hardening": true,
+            "symfony/runtime": true,
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./"
+            }
+        },
+        "installer-paths": {
+            "core": [
+                "type:drupal-core"
+            ],
+            "libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ]
+        },
+        "drupal-core-project-message": {
+            "include-keys": [
+                "homepage",
+                "support"
+            ],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you\u2019ve installed the Drupal codebase  </>",
+                "<bg=blue;fg=white>  from the drupal/legacy-project template!               </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+                "  * Install the site: https://www.drupal.org/docs/8/install",
+                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+                "  * Get support: https://www.drupal.org/support",
+                "  * Get involved with the Drupal community:",
+                "      https://www.drupal.org/getting-involved",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        },
+        "patches": {
+            "drupal/bg_image_formatter": [
+                {
+                    "description": "Inject ImageDerivativeUtilities required by Drupal 11.4 (upstream issue 3608185)",
+                    "url": "patches/bg_image_formatter-drupal-11.4-constructor.patch",
+                    "sha256": "6b17efb946dad921ba80560bca2eb2d6c951cb64f46936f4f250208e93848039",
+                    "depth": 1
+                }
+            ]
+        }
+    }
+}
